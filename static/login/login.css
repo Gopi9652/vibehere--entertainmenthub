@@ -1,0 +1,29 @@
+main{
+    width:80rem;
+    background-color: beige;
+    justify-content: center;
+    text-align: center;
+    height: 50rem;
+    margin: 30px;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    margin-left: 120px;
+    display:flex;
+    border: 1px solid black;
+
+}
+form{
+    max-height: 17rem;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px black;
+    margin: auto;
+    border: 1px solid black;
+}
+form input{
+    padding: 15px;
+    margin: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% extends 'base.html'%}
+{%load static%}
+{% block child_css %}
+<link rel="stylesheet" href="{% static 'home/home.css' %}">
+    <meta charset="UTF-8">
+    <title>HOME</title>
+{% endblock %}
+{% block child_block %}
+    <div id="ov">
+            <h2>Website Overview</h2>
+            <p>The website is designed to deliver multimedia content with a focus on providing easy access to audio tracks, video clips, and details about upcoming movies. It offers a clean, user-friendly interface where users can navigate between sections effortlessly.
+                Content: The page offers music streaming options with high-quality audio, categorized by language (Telugu, Hindi, etc.), genre (romantic, action, etc.), and trending charts. There might also be artist highlights and exclusive album releases.
+Functionality: Users can create personal playlists, like or comment on tracks, and share songs across social media.
+            </p>
+        </div>
+        <main>
+            <div class="home">
+                <h2>audio page</h2>
+                <p>The Audio page contains a curated list of the latest and trending songs across various genres. Users can listen to music directly through the page, with features like playlists, album collections, and recommendations based on user preferences.
+                    Content: The page provides HD video streaming for official trailers, teasers, and music videos, categorized by genres like action, comedy, romance, and drama.
+Functionality: Users can watch videos directly from the site, subscribe for updates on new releases, and view trending or popular videos. Interactive elements such as rating, sharing, and comments are available to engage with the content.
+                </p>
+            </div>
+            <div class="home">
+                <h2>video page</h2>
+                <p>The Video page serves as a hub for movie trailers, music videos, interviews, and behind-the-scenes footage. It features a collection of official releases from both Tollywood and Bollywood, allowing users to watch the latest visual content.
+                    Content: It showcases upcoming films with detailed information, including trailers, first-look posters, and plot summaries. You can expect sections like "Top Anticipated Movies" or "Releases of the Month."
+Functionality: Users can explore movie details, read cast and crew information, watch trailers, and mark their calendars for release dates. There may also be an option to set reminders or notifications for specific releases.
+                </p>
+            </div>
+            <div class="home">
+                <h2>upcomin movies</h2>
+                <p>The Upcoming Movies page offers details about upcoming Telugu films, providing release dates, cast information, crew details, and plot summaries. This page is dedicated to keeping fans updated on the latest projects in Tollywood.
+                    Content: It showcases upcoming films with detailed information, including trailers, first-look posters, and plot summaries. You can expect sections like "Top Anticipated Movies" or "Releases of the Month."
+Functionality: Users can explore movie details, read cast and crew information, watch trailers, and mark their calendars for release dates. There may also be an option to set reminders or notifications for specific releases.
+                </p>
+            </div>
+        </main>
+{% endblock %}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Base</title>
+        <script src="https://kit.fontawesome.com/7b79365e1a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{% static 'base/base.css' %}" type="text/css">
+        <script src="{% static 'base/base.js' %}" defer></script>
+        {% block child_css %}
+        
+        {% endblock %}
+    </head>
+    <body>
+        <header id="header">
+            <div id="hd1">
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-user-large"></i></td>
+                        <td rowspan="2"><h1>www.VIBE <i>HERE</i>.com</h1></td>
+                        <td rowspan="2">
+                            <!-- Change the icon to a button -->
+                            <button id="nav" aria-label="Toggle navigation" style="background: none; border: none; cursor: pointer;">
+                                <i class="fa-solid fa-bars"></i> <!-- Font Awesome bars icon -->
+                            </button>
+                        </td>
+                    </tr>
+                    <tr><td style="margin: 10px;">Gopi Thagulla</td></tr>
+                </table>
+            </div>
+            <div id="hd2">
+                <ul type="none" id="ul">
+                    <li><a href="/home/">HOME</a></li>
+                    <li><a href="/audio/">AUDIO</a></li>
+                    <li><a href="/video/">VIDEO</a></li>
+                    <li><a href="/upcomingmovies/">UPCOMING MOVIES</a></li>
+                </ul>
+                
+            </div>
+            <div id="hd3">
+                <p>h!! Gopi Thagulla</p>
+            </div>
+        </header>
+    {%block child_block%}
+        *********click on menu for menu bar**********
+    {%endblock%}
+      <footer id="footer">
+            <div id="footer1">
+                <p>&copy;2024</p>
+                <p>@<i>vibehere.com</i></p>
+            </div>
+            <div id="footer2">
+                <p>contact</p>
+                <span>thagullagopi1@gmail.com</span><br>
+                <span>+91 9705075545</span>
+            </div>
+        </footer>
+    </body>
+</html>

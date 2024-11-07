@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    justify-content: center;
+    background-color:antiquewhite transparent;
+    overflow-x: auto;
+    }
+#header,#footer,td button,#hd2 ul li a{
+        background-color: darkslateblue;
+        color: antiquewhite;
+}
+#hd1{
+    margin: 0px;
+    padding: 20px;
+    margin-bottom: 2.5px;
+}
+#hd1 i:hover{
+    cursor: pointer;
+}
+#hd2{
+    display: none;
+    margin: 0px 0px 2.5px 0px;
+    padding: 20px 0px 20px 0px;
+    border: 10px;
+}
+#hd2 ul li{
+    padding: 5px 0px 5px 0px;
+}
+#hd2 ul li:hover{
+    transform: scale(1.25);
+    cursor: pointer;
+}
+#hd2 ul li a{
+    text-decoration:none;
+}
+#hd3{
+    background-image: url("https://res.cloudinary.com/dngn2hghx/image/upload/v1727232807/vibehere/to7xadwulatls0wj6lp0.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center;
+    margin-top: 2px;
+}
+#hd3 p{
+    padding: 5% 0% 5%  10%;
+    text-align: left;
+    color: darkslateblue;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+#hd2 a.active {
+    background-color: brown;
+    color: blue;
+}

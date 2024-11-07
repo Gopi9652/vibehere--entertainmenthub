@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+{% block child_css %}
+    <link href="{% static 'login/login.css' %}" rel="stylesheet">
+{% endblock %}
+{% block child_block %}
+    <main id="login">
+<form method="post">
+
+    {{ form.as_p }}
+    {% csrf_token %}
+    <input type="submit" value="submit">
+</form>
+    </main>
+{% endblock %}

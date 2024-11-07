@@ -1,0 +1,75 @@
+#main{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-top: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#main1{
+    text-align: left;
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 2px solid black;
+    margin-left: 55px;
+    position: relative;
+    z-index: 1;
+    margin: 0 0 80px 0;
+}
+#main2{
+    flex: 1;
+    min-width: 200px;
+    position: relative;
+}
+.movies{
+    height: 190px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 5px 20px 40px;
+    padding-bottom: 20px;
+    transition: transform 0.3s ease; /* Smooth scaling */
+    will-change: transform;
+}
+.movies img{
+    width: 100%;
+    height: 90%;
+}
+.movies figcaption{
+    margin-top: 3px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+
+}
+.movies:hover{
+    box-shadow: 7px 5px 5px gray;
+    transform: scale(1.25);
+    background-color: dodgerblue;
+    color:white;
+    transition: transform 1s ease; /* Smooth scaling */
+    will-change: transform;
+}
+.click{
+    box-shadow: 7px 5px 5px gray;
+    transform: scale(1.15);
+    background-color:darkslateblue;
+    color:white;
+}
+.song{
+    transition: all 1s;
+}
+.song:hover{
+    box-shadow: 0 0 20px black;
+    transform: scale(1.10);
+}
+#main2 P{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin: 10px 0 10px 10px;
+    text-transform: uppercase;
+}

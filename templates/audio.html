@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block child_css %}
+<link rel="stylesheet" href="{% static 'audio/audio.css' %}">
+    <script src="{% static 'audio/audio.js' %}" defer></script>
+<meta charset="UTF-8">
+<title>Audio</title>
+{% endblock %}
+{% block child_block %}
+<main id="main">
+            <div id="main1">
+                <figure class="movies" data-movie="kalki">
+                    <img src="https://res.cloudinary.com/dngn2hghx/image/upload/v1727351446/vibehere/devara/enrzkftmcucuegyvnl5m.jpg" alt="devara" onclick="devera()">
+                    <figcaption>kalki</figcaption>
+                </figure>
+                <figure class="movies" data-movie="devara">
+                    <img src="https://res.cloudinary.com/dngn2hghx/image/upload/v1727347477/vibehere/devara/mtg30mxlyirzafpupi2d.jpg" alt="devara">
+                    <figcaption>DEVARA</figcaption>
+                </figure>
+                <figure class="movies" data-movie="gamechanger">
+                    <img src="https://res.cloudinary.com/dngn2hghx/image/upload/v1727351446/vibehere/devara/iwr60emlowkzc5bt7s1g.jpg" alt="devara">
+                    <figcaption>game changer</figcaption>
+                </figure>
+                <figure class="movies">
+                    <img src="https://res.cloudinary.com/dngn2hghx/image/upload/v1727351446/vibehere/devara/swghvp5btdzacoiewlz6.jpg" alt="devara">
+                    <figcaption>pushpa-2</figcaption>
+                </figure>
+                <figure class="movies">
+                    <img src="https://res.cloudinary.com/dngn2hghx/image/upload/v1727351447/vibehere/devara/xwark9zu5acnfl9llbyi.jpg" alt="devara">
+                    <figcaption>hi nanna</figcaption>
+                </figure>
+                <figure class="movies">
+                    <img src="https://res.cloudinary.com/dngn2hghx/image/upload/v1727351447/vibehere/devara/i4lz9nmvcjoehjblvhtc.jpg" alt="devara">
+                    <figcaption>Mr.bachan</figcaption>
+                </figure>
+                <figure class="movies">
+                    <img src="https://res.cloudinary.com/dngn2hghx/image/upload/v1727351447/vibehere/devara/l1nrpznjrebsayezfo8k.jpg" alt="devara">
+                    <figcaption>saripodha sanivaaram</figcaption>
+                </figure>
+                <figure class="movies">
+                    <img src="https://res.cloudinary.com/dngn2hghx/image/upload/v1727351447/vibehere/devara/h94aqkewjue4sikia6rq.jpg" alt="devara">
+                    <figcaption>double ismart</figcaption>
+                </figure>
+               </div>
+            </div> 
+            <div id="main2">
+                <div id="devera"></div>
+                <div id="kalki"></div>
+            </div>
+        </main>
+{% endblock %}

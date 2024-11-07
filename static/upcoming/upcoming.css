@@ -1,0 +1,38 @@
+main{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.div{
+    display: flex;
+    width:95%;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    background-color:cadetblue;
+    color: antiquewhite;
+}
+img{
+    width:150px;
+    height: 150px;
+    margin: 20px;
+}
+.content{
+    text-align: center;
+    margin: auto;
+    text-align: left;
+    padding-left: 20px;
+}
+.content h3{
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+.div:hover{
+    box-shadow: 0 0 10px black;
+    transform: scale(1.02);
+    background-color: lightgray;
+    color: darkslateblue;
+}
